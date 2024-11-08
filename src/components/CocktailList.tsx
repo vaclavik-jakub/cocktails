@@ -12,9 +12,6 @@ interface CocktailListProps {
 }
 
 const CocktailList: React.FC<CocktailListProps> = ({ cocktails }) => {
-  if (cocktails.length === 0) {
-    return <p>Žádné koktejly k zobrazení.</p>;
-  }
 
   return (
     <div style={{ display: 'flex', flexWrap: 'wrap', justifyContent: 'center' }}>
