@@ -1,0 +1,76 @@
+/* src/App.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    color: #333;
+  }
+  
+  h1 {
+    font-size: 2em;
+    color: #3e64ff;
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  input[type="text"] {
+    padding: 10px;
+    width: 300px;
+    margin-right: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+
+ div {
+    align-items: center;
+ }
+  
+  button {
+    padding: 10px 15px;
+    background-color: #3e64ff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+  
+  button:hover:not(:disabled) {
+    background-color: #3452d1;
+  }
+  
+  .cocktail-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+  }
+  
+  .cocktail-item {
+    width: 150px;
+    text-align: center;
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .cocktail-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+  
+  .cocktail-item p {
+    margin-top: 10px;
+    font-weight: bold;
+    color: #555;
+  }
+  
