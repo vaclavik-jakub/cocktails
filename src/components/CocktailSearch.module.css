@@ -22,9 +22,9 @@ body {
     border: 1px solid #ccc;
   }
 
- div {
-    align-items: center;
- }
+    div {
+        align-items: center;
+    }
   
   button {
     padding: 10px 15px;
