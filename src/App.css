@@ -5,7 +5,9 @@
   text-align: center;
 }
 
-
+div {
+  align-items: center;
+}
 
 .logo {
   height: 6em;
